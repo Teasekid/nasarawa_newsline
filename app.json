@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Nasarawa Newsline",
+    "slug": "nasarawa-newsline",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "nasarawanewsline",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./cropped-IMG-20231023-WA0001-2.jpg",
+      "imageWidth": 320,
+      "resizeMode": "contain",
+      "backgroundColor": "#B82025"
+    },
+    "android": {
+      "package": "com.nasarawanewsline.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B82025"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.nasarawanewsline.app"
+    },
+    "plugins": [
+      "expo-sqlite",
+      ["expo-notifications", { "defaultChannel": "news" }]
+    ]
+  }
+}
